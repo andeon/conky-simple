@@ -1,0 +1,2 @@
+# conky-simple
+Conky theme
