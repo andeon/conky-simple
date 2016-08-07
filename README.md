@@ -37,3 +37,6 @@ Notes
 - Optimized to work with wireless connection. Edit the file and change variable wlan0 to eth0 and put # in front the line 159 "signal strength" to comment.
 
 - Conky 2.0 have issue with $pre_exec variable check here: https://github.com/brndnmtthws/conky/issues/62
+
+- own_window_type not work properly in some Desktop environment, change it if necessary. Options:  (normal, desktop, dock, panel or override)
+
