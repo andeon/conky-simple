@@ -1,7 +1,7 @@
 Simple - Conky theme
 =================================
 
-My simple conky setup, basic design that works in version 1.9.0 of conky.
+My simple conky setup, basic design that looks better on dark wallpapers.
 
 ![Simple - Conky theme](https://github.com/andeon/conky-simple/blob/master/Simple/Simple.jpg)
 
