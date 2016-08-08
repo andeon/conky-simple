@@ -38,9 +38,9 @@ Conky Manager: http://www.teejeetech.in/p/conky-manager.html
 
 Notes
 -----
-- Optimized to work with wireless connection. The network setting may not suit for your environment. run `ifconfig` to get the name of device that you are currenty using, then change `wlan0` to it. If it's ethernet and put # in front the line 159 "signal strength" to comment.
+- Optimized to work with wireless connection. The network setting may not suit for your environment. Run `ifconfig` to get the name of device that you are currenty using, then change `wlan0` to it. If it's ethernet put `#` in front the line 159 "signal strength" to comment.
 
-- Conky 2.0 have issue with $pre_exec variable check here: https://github.com/brndnmtthws/conky/issues/62
+- Conky 1.10.1 have issue with `$pre_exec` variable (I remove  the auto detect "lsb_release" to fix). Check here: https://github.com/brndnmtthws/conky/issues/62 
 
-- own_window_type not work properly in some Desktop environment, change it if necessary. Options:  (normal, desktop, dock, panel or override)
+- own_window_type not work properly in some Desktop Environment, change it if necessary. Options:  (normal, desktop, dock, panel or override)
 
