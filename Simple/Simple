@@ -106,9 +106,9 @@ default_outline_color white
 color1 DDDDDD
 color2 AAAAAA
 color3 888888
-color4 EF5A29 # Orange
+color4 ffa54f # Orange
 color5 77B753 # Green
-
+color6 3a5153 # DarkGrey
 
 # Header with base system info
 # stuff after 'TEXT' will be formatted on screen
@@ -117,14 +117,14 @@ own_window_argb_visual yes
 own_window_colour 000000
 TEXT
 #SYSTEM DETAILS:
-${font Monospace:style=Bold:pixelsize=18}${color4}SYSTEM ${hr 2}
+${font Monospace:style=Bold:pixelsize=16}${color4}SYSTEM ${color6}${hr 2}
 ${color}${font Monospace:size=7.2}OS: ${alignr}Ubuntu 16.04.1 LTS (Xenial Xerus) - Unity
 KERNEL: $alignr$sysname $kernel ($machine)
 UPTIME: $alignr$uptime
 RUNNING PROCESSES: ${alignr}$processes (${color4}$running_processes Executing${color})
 
 
-${color5}${font Monospace:style=Bold:pixelsize=12}CPU USAGE ${hr 1 }
+${color4}${font Monospace:style=Bold:pixelsize=12}CPU USAGE ${color6}${hr 2 }
 ${color}${font Monospace:style=Bold:pixelsize=8}
 CORE I:                        CORE II:${font Monospace:size=6.5}
 ${freq}MHz / ${acpitemp}°C ${color3}(${cpu cpu1}%)           ${color}${freq}MHz / ${acpitemp}°C ${color3}(${cpu cpu2}%)
@@ -136,7 +136,7 @@ ${color}4th ${color2}${top name 7}${top cpu 7}%${alignr}${color}4th ${color2}${t
 ${color}5th ${color3}${top name 9}${top cpu 9}%${alignr}${color}5th ${color3}${top name 10}${top cpu 10}%
 
 
-${color5}${font Monospace:style=Bold:pixelsize=12}MEMORY USAGE ${hr 1 }
+${color4}${font Monospace:style=Bold:pixelsize=12}MEMORY USAGE ${color6}${hr 2 }
 ${color}${font Monospace:size=6.5}
 $mem / $memmax ($memperc%)
 ${color3}${membar 5,120}
@@ -147,12 +147,12 @@ ${color}4th ${color2}${top_mem name 4}${top_mem mem 4}% ${alignr}${color}9th ${c
 ${color}5th ${color3}${top_mem name 5}${top_mem mem 5}% ${alignr}${color}10th ${color3}${top_mem name 10}${top_mem mem 10}%
  
 
-${color5}${font Monospace:style=Bold:pixelsize=12}DISK USAGE ${hr 1 }
+${color4}${font Monospace:style=Bold:pixelsize=12}DISK USAGE ${color6}${hr 2 }
 
 ${color}${font Monospace:style=Bold:pixelsize=11}COMPUTER:${font Monospace:size=7} ${alignr}${fs_used /}/${fs_size /}
 ${alignr}${color2}${fs_used_perc /}% ${color3}${fs_bar 5,120 /}
 
-${color5}${font Monospace:style=Bold:pixelsize=12}INTERNET ${hr 1 }
+${color4}${font Monospace:style=Bold:pixelsize=12}INTERNET ${color6}${hr 2 }
 
 ${font Monospace:style=Bold:pixelsize=11}${color}WIRELESS:${font Monospace:size=7}
 #${color}SSID: ${alignr} ${color}${wireless_essid wlan0}
