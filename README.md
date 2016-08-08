@@ -19,9 +19,9 @@ Installation
 
 Ubuntu and derivatives
 -----
-If you are using Ubuntu or its derivatives (like Xubuntu, Linux Mint, etc) you can install it from the Launchpad PPA.
-
 Conky Manager is a graphical front-end for managing Conky config files. It provides options to start/stop, browse and edit Conky themes installed on the system. 
+
+If you are using Ubuntu or its derivatives (like Xubuntu, Linux Mint, etc) you can install it from the Launchpad PPA.
 
 `sudo apt-add-repository -y ppa:teejee2008/ppa`
 
