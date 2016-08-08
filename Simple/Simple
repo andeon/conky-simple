@@ -169,5 +169,6 @@ ${color}${font Monospace:style=Bold:pixelsize=11}UP SPEED:${font Monospace:size=
 ${alignr}${color BBCCDD}${upspeedgraph wlan0 20,290 77B753 77B753}
 ${color}TOTAL UP ${alignr}${totalup wlan0}
 
+
 ${color}${font :size=10:style=Bold}${alignc}"Talk is cheap. Show me the code"
-${color}${font :size=9}${alignc}- Linus Torvalds.
+${color}${font :size=9}${alignc}(Linus Torvalds)
