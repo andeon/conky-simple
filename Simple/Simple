@@ -137,7 +137,7 @@ ${color}5th ${color3}${top name 9}${top cpu 9}%${alignr}${color}5th ${color3}${t
 
 
 ${color5}${font Monospace:style=Bold:pixelsize=12}MEMORY USAGE ${hr 1 }
-${color}${font Monospace:size=7}
+${color}${font Monospace:size=6.5}
 $mem / $memmax ($memperc%)
 ${color3}${membar 5,120}
 ${color}1st ${color4}${top_mem name 1}${top_mem mem 1}% ${alignr}${color}6th ${color3}${top_mem name 6}${top_mem mem 6}%
