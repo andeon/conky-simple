@@ -38,7 +38,7 @@ Conky Manager: http://www.teejeetech.in/p/conky-manager.html
 
 Notes
 -----
-- Optimized to work with wireless connection. Edit the file and change variable wlan0 to eth0 and put # in front the line 159 "signal strength" to comment.
+- Optimized to work with wireless connection. The network setting may not suit for your environment. run `ifconfig` to get the name of device that you are currenty using, then change `wlan0` to it. If it's ethernet and put # in front the line 159 "signal strength" to comment.
 
 - Conky 2.0 have issue with $pre_exec variable check here: https://github.com/brndnmtthws/conky/issues/62
 
