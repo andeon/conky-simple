@@ -44,4 +44,4 @@ Notes
 
 - own_window_type not work properly in some Desktop Environment, change it if necessary. Options:  (normal, desktop, dock, panel or override)
 
-- If font don't look great ajust the size in *Font Monospace:size=*
+- If the font doesn't look great in your screen adjust the size in `Font Monospace:size=`
